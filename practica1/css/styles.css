@@ -3,9 +3,72 @@
     padding: 00;
 }
 body{
-    background-color: #faf2e5;
+    background-color:aliceblue;
 }
 #header{
     height: 70px;
-    background-color: #ffe6e6;
+    background-color: white;
+}
+#header #title{
+    width: 80px;
+    height: 40px;
+    background-color: brown;
+    margin-left: 30px;
+    margin-top: 20px;
+    float: left;
+}
+div#columna2{
+    background-color: #808080;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+div#columna2 div.cuadrito{
+    background-color: white;
+    width: 20%;
+    height: 90%;
+}
+div#columna3{
+    height: 250px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+div#columna3 div.cuadrito2{
+    background-color: white;  
+    width: 20%;
+    height: 70%;
+}
+div#columna4{
+    background-color: #808080;
+    height: 120px;
+    position: relative;
+}
+div#columna4 div.cuadrito3{
+    background-color: white;  
+    width: 10%;
+    height: 60%;
+    position: absolute; 
+    right: 65px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+div#columna5{
+    background-color: brown;
+    height: 150px;
+    position: relative;
+}
+div#columna5 div.cuadrito4{
+    background-color: white;  
+    width: 10%; 
+    height: 70%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
